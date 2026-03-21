@@ -15,8 +15,8 @@ DIRS = {
     "right": (1, 0),
 }
 
-TIME_BUDGET = 0.4       # stay below the 1000 ms hard limit
-ROLLOUT_DEPTH = 6       # deeper is stronger but slower
+TIME_BUDGET = 0.2       # stay below the 1000 ms hard limit
+ROLLOUT_DEPTH = 5       # deeper is stronger but slower
 C_PUCT = 1.6             # exploration constant for tree policy
 
 
